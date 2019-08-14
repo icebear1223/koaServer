@@ -1,0 +1,11 @@
+{
+    "name":"docker_koa_app",
+    "script":"app.js",
+    "watch":true,
+    "log_date_format":"YYYY-MM-DD HH:mm Z",
+    "out_file":"log/koa-app.stdout.log",
+    "error_file":"error/koa-app.log",
+    "instances":"max",
+    "exec_mode":"cluster",
+    "ignore_watch":"logs"
+}
